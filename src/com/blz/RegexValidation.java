@@ -8,7 +8,7 @@ public class RegexValidation {
 
     }
     public static void main(String[] args) {
-        boolean regexCheck = isValid("^[a-z]{1,10}[\\@][a-z]{1,10}[\\.][a-z]{1,4}$","karthik@bridgelabz.co");
+        boolean regexCheck = isValid("^[a-z]{1,10}[._+-]?[a-z]{1,10}?[\\@][a-z]{1,10}[\\.][a-z]{1,4}([\\.][a-z]{2})?$","karthik.benki@bridgelabz.co.in");
         System.out.println(regexCheck);
     }
 }
